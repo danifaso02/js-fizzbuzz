@@ -1,0 +1,67 @@
+/*--------------
+RESET 
+--------------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------
+COMMON 
+--------------*/
+
+body{
+    background-color: #083B4C;
+}
+
+/*--------------
+MAIN 
+--------------*/
+
+.container{
+    width: 62.5rem;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 3.75rem;
+    margin-top: 1.5625rem;
+    margin-bottom: 1.5625rem;
+}
+
+.table{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(90% / 7);
+    padding: 3.125rem 0;
+    margin-bottom: .9375rem;
+    font-size: 1.5625rem;
+}
+
+.numbers{
+    background-color: #1389b2;
+}
+
+.num-fizz{
+    background-color: #0cd6a1;
+}
+
+.num-buzz{
+    background-color: #ffd166;
+}
+
+.num-fizzbuzz{
+    background-color: #f0466f;
+}
